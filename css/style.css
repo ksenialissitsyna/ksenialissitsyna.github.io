@@ -1,9 +1,9 @@
 body {
-	background-color: #0099cc;
+	background-color: orange;
 	color: #FFFFFF;
 }
 
-img.background {
+.background {
 	height: 22px;
 	display: block;
 	position: relative;

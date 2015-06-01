@@ -3,8 +3,7 @@ body {
 	color: #FFFFFF;
 	size: 300px 400px;
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	margin: 4em
+	text-align: center;	
 }
 
 ul {
@@ -13,4 +12,8 @@ ul {
 
 p  {
 	text-align: left
+}
+
+div {
+	margin: 4em
 }

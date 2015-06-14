@@ -12,9 +12,8 @@ nav a{
 	float: right;
 	color: #333;
 	text-decoration: none;
-	padding: 1.7em 0.95em 0 0;
-	font-weight: 900;
-	text-shadow: .2px .2px .2px #333;
+	padding: 1.7em 1em 0 0;
+	font-weight: bold;
 }
 footer {
 	background-color:#444;
@@ -28,45 +27,61 @@ footer {
 footer p {
 	float: right;
 }
-
 h1 {
 	float: left;
 	padding: .4em .2em 0 .3em;
-	font-size: 37px;
-	text-shadow: .2px .2px .2px #333;
-}
+	font-size: 42px;
+	color: #E2E3DD;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000
+}   
 p  {
 	padding:0;
 	text-align: left
 }
 div#splash {
 	background-image:url("../images/ocean.jpg");
-	background-size:1950px auto;
+	background-size: 1950px auto;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	height:50vh;
 }
 .generalinfo {
 	width: 100%;
-	float: center;
-	padding:0 1em 1em 1em;
+	margin:0 1.3em;
 	font-weight: bold;
+	text-align: center;
+	background-size: auto;
 }
-.services sec {
+.services {
+	margin: 1em;
+	background-size: auto;
+}
+.servicesheader p {
 	width: 20%;
 	float:left;
-	padding:1em 3em;
+	padding:1em 0;
 	text-align: center;
-	margin: 0.2em;
-	font-weight: bold;
-	background-color: white;
-	text-shadow: .2px .2px .2px #333;
+	margin: 0 0.3em;
+	font-weight: 900;
+	background-color: #E2E3DD ;
+	text-transform: uppercase;
+	color: #333;
+}
+.servicesdescription p {
+	width: 20%;
+	float:left;
+	padding:0 1em 1em 1em;
+	text-align: left;
+	margin: 0 0.3em;
+	background-color: #E2E3DD ;
+	color: #333;
 }
 blockquote {
-	padding: 0 0 0.65em 2.5em;
+	padding: 0 0 0.8em 4em;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 13.5px;
 }
 #contact{
 	font-weight: bold;

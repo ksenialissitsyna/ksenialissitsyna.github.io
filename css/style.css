@@ -2,18 +2,20 @@
 * {margin: 0; padding:0; box-sizing:border-box;}
 body {
 	background-color: #76A69B;
-	color: #333;
+	color: #222;
 	size: auto;
 	font-family: 'Raleway', sans-serif;
 	max-width: 100%;
 }
+nav{
+	padding: 0 1.5em 0 0;
+}
 nav a{
-	font-size: 1.11em;
+	font-size: 1.1em;
 	float: right;
-	color: #ffffe5;
+	color: #fffff4;
 	text-decoration: none;
-	padding: 1.7em 1em 0 0;
-	font-weight: bold;
+	padding: 2em 1em 0 0;
 }
 footer {
 	background-color:#444;
@@ -29,26 +31,24 @@ footer p {
 }
 h1 {
 	float: left;
-	padding: .2em .2em 0 .5em;
+	padding: 0.3em .3em 0.1em .5em;
 	font-size: 46px;
-	color: #333;
-	font-family: 'Merienda', sans-serif;
+	color: #222;
+	font-family: 'Neucha', sans-serif;
+	opacity: 0.85;
 }   
 p  {
 	padding:0;
 	text-align: left
 }
-div#splash {
-	background-image:url("../images/ocean.jpg");
-	background-size: 1950px auto;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	height:45vh;
+.banner {
+	width: auto;
+	height: 330px;
+	box-shadow: 4px 4px 5px #444;
 }
 .generalinfo {
 	width: 100%;
-	margin:0 1.3em;
-	font-weight: bold;
+	margin: 1em 2em;
 	text-align: center;
 	background-size: auto;
 }
@@ -63,9 +63,10 @@ div#splash {
 	text-align: center;
 	margin: 0 0.3em;
 	font-weight: 900;
-	background-color: #ffffe5 ;
+	background-color: #fffff4;
 	text-transform: uppercase;
-	color: #333;
+	color: #111;
+	opacity: 0.75;
 }
 .servicesdescription p {
 	width: 20%;
@@ -73,8 +74,9 @@ div#splash {
 	padding:0 1em 1em 1em;
 	text-align: left;
 	margin: 0 0.3em;
-	background-color: #ffffe5 ;
-	color: #333;
+	background-color: #fffff4;
+	color: #111;
+	opacity: 0.75;
 }
 blockquote {
 	padding: 0 0 0.8em 4em;
@@ -93,3 +95,5 @@ blockquote {
 	height: 0; 
 	clear: both;
 }
+
+

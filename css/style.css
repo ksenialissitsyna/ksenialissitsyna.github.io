@@ -1,92 +1,60 @@
 
 * {margin: 0; padding:0; box-sizing:border-box;}
 body {
-	background-color: #76A69B;
+	background-image: url('../images/sand.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size: 16px;
+	font-weight:40;
 	color: #222;
-	size: auto;
-	font-family: 'Raleway', sans-serif;
+	font-family:'Vollkorn', sans-serif;
 	max-width: 100%;
+	text-align: left;
 }
+section#splash {
+	height:32vh; 
+}
+section#splash div h1 {
+	float: left;
+	padding: 1em .3em 1em 1.3em;
+	font-size: 46px;
+	color: #222;
+	font-family:'Cinzel Decorative', sans-serif;
+}   
 nav{
 	padding: 0 1.5em 0 0;
 }
 nav a{
 	font-size: 1.1em;
 	float: right;
-	color: #fffff4;
+	color: #222;
 	text-decoration: none;
 	padding: 2em 1em 0 0;
-}
-footer {
-	background-color:#444;
-	color:#fff;
-	font-size: 12px;
-	font-weight: 100;
-	line-height: 1.5em;
-	margin-top: 4em;
-	clear: both;
-}
-footer p {
-	float: right;
-}
-h1 {
-	float: left;
-	padding: 0.3em .3em 0.1em .5em;
-	font-size: 46px;
-	color: #222;
-	font-family: 'Neucha', sans-serif;
-	opacity: 0.85;
-}   
-p  {
-	padding:0;
-	text-align: left
-}
-.banner {
-	width: auto;
-	height: 330px;
-	box-shadow: 4px 4px 5px #444;
+	font-weight: bold;
 }
 .generalinfo {
-	width: 100%;
-	margin: 1em 2em;
-	text-align: center;
-	background-size: auto;
-}
-.services {
-	margin: 1em;
-	background-size: auto;
-}
-.servicesheader p {
-	width: 20%;
-	float:left;
-	padding:1em 0;
-	text-align: center;
-	margin: 0 0.3em;
-	font-weight: 900;
-	background-color: #fffff4;
-	text-transform: uppercase;
-	color: #111;
-	opacity: 0.75;
-}
-.servicesdescription p {
-	width: 20%;
-	float:left;
-	padding:0 1em 1em 1em;
+	margin: 0 6em; 
+	max-width:75em; 
+	height:40vh;
 	text-align: left;
-	margin: 0 0.3em;
-	background-color: #fffff4;
-	color: #111;
-	opacity: 0.75;
 }
-blockquote {
-	padding: 0 0 0.8em 4em;
+section#services { 
+	background:rgba(255,255,255,0.6);
+} 
+section#services div { 
+	margin:0 auto; 
+	max-width:75em; 
+} 
+.columns { 
+	float:left; 
+	padding:1em 1em; 
+	width:33.33%; 
+}
+blockquote{
+	font-size: 18px;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 14px;
-}
-#contact{
-	font-weight: bold;
-	text-decoration: none;
 }
 .clearfix:after { 
 	content: "."; 
@@ -95,5 +63,7 @@ blockquote {
 	height: 0; 
 	clear: both;
 }
-
-
+.columns h2{
+	text-align: center;
+	text-decoration: normal;
+}

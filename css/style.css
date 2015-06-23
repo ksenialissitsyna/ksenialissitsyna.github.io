@@ -1,38 +1,41 @@
 
 * {margin: 0; padding:0; box-sizing:border-box;}
 body {
-	background-image: url('../images/sand.jpg');
+	background-image: url('../images/seacliffs.jpeg');
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
 	font-size: 16px;
 	font-weight:40;
-	color: #222;
 	font-family:'Vollkorn', sans-serif;
 	text-align: left;
 }
 div{
 	float: left;
 	height:32vh; 
-	margin: 2.5em 0 0 3em;
+	margin: 2em 0 0 1.5em;
+
 }
 div h1 {
-	font-size: 45px;
-	color: #222;
+	font-size: 40px;
+	color: #333;
 	font-family:'Cinzel Decorative', sans-serif;
 	}   
 div p{
-	font-size: 23px;
+	font-size: 20px;
 	margin: none;
-	font-family:'Vollkorn', sans-serif;
+	font-family: arial sans-serif;
+	font-variant: small-caps; 
+}
+nav{
+	margin: 0 2em 0 0;
 }
 nav a{
 	font-size: 1.1em;
 	float: right;
-	color: #222;
+	color: rgba(235, 235, 235, 0.7);
 	text-decoration: none;
-	padding: 1em 1em 0 0;
-	font-weight: bold;
+	padding: 2em 0.75em 1em 0.75em;
 }
 .generalinfo {
 	max-width:50em; 
@@ -40,13 +43,13 @@ nav a{
 	text-align: left;
 	margin: 0 3em;
 }
-.columns { 
+.servicescolumns { 
 	float:left; 
 	padding:1em 1em; 
 	width:33.33%; 
 }
 section#services { 
-	background:rgba(255,255,255,0.6);
+	background: rgba(255, 255, 255, 0.7);
 	padding: 1em 3em;
 } 
 section#services div { 
@@ -55,9 +58,11 @@ section#services div {
 	max-width:75em; 
 } 
 blockquote{
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 23px;
 	font-style: italic;
+	color: #222;
+	float: center;
+	color: #333;
 }
 .clearfix:after { 
 	content: "."; 
@@ -66,6 +71,26 @@ blockquote{
 	height: 0; 
 	clear: both;
 }
-.columns h2{
+.servicescolumns h2{
 	text-align: center;
+}
+#aboutiryna{
+	background: rgba(235, 235, 235, 0.7);
+}
+#aboutirynacolumn1 { 
+	float:left; 
+	width:20%; 
+	padding:2em 4em;
+}
+#aboutirynacolumn2 { 
+	float:left; 
+	width:80%;
+	padding:3em;
+}
+#aboutirynacolumn2 p{ 
+	margin:1em 0; 
+}
+img {
+	height: 18em; 
+	width: auto;
 }

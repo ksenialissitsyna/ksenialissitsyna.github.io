@@ -7,13 +7,13 @@ body {
 	background-repeat:no-repeat;
 	font-size: 16px;
 	font-weight:40;
-	font-family:'Vollkorn', sans-serif;
+	font-family:'Hind', sans-serif;
 	text-align: left;
 }
 div{
 	float: left;
 	height:52vh; 
-	margin: 2em 0 0 1.5em;
+	margin: 0.3em 0 0 1.5em;
 
 }
 div h1 {
@@ -23,23 +23,24 @@ div h1 {
 	font-weight: normal;
 	}   
 div p{
-	font-size: 25px;
+	font-size: 20px;
 	margin: none;
-	font-family: 'Vollkorn', sans-serif;
+	font-family: 'Hind', sans-serif;
 	color: rgba(255,255,255,0.75);
 	text-decoration: none;
 	font-weight: normal;
-	font-variant: small-caps;
+	text-transform: uppercase;
 }
 nav{
-	margin: 0 2em 0 0;
+	margin: 1.5em 2em 0 0;
 }
 nav a{
 	font-size: 1.1em;
 	float: right;
-	color: #333;
+	color: rgb(255,255,255);
 	text-decoration: none;
-	padding: 2em 0.75em 1em 0.75em;
+	padding: 0.25em 1em;
+	border-radius: 25px;
 }
 
 .generalinfo {
@@ -54,8 +55,8 @@ nav a{
 	width:33.33%; 
 }
 section#services { 
-	background: rgba(255, 255, 255, 0.8);
-	padding: 1em 3em;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 0.5em 3em;
 } 
 section#services div { 
 	margin:2 auto; 
@@ -64,12 +65,16 @@ section#services div {
 } 
 #slogan{
 	font-size: 20px;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgb(255, 255, 255);
 	text-align: left;
 	padding: 1.5em 1em;
-	font-family:'Vollkorn', sans-serif;
-	font-weight: normal;
-	background-color: #f28600;
+	font-family:'Hind', sans-serif;
+	font-weight: normal;	
+}
+blockquote{
+	max-width: 34em;
+	padding: 0 1em;
+	border-radius: 25px;
 }
 .clearfix:after { 
 	content: "."; 
@@ -84,7 +89,7 @@ section#services div {
 	padding: 0 0 0.2em 0;
 }
 #aboutiryna{
-	background: rgba(185,210,223,0.8);
+	background: rgba(255, 255, 255, 0.9);
 }
 #aboutirynacolumn1 { 
 	float:left; 
@@ -125,7 +130,8 @@ a:hover {
     background-color: #333;
     color: rgba(155, 155, 155, 0.8);
     font: 6px;
-    font-family: 'Vollkorn', sans-serif;
+    font-family: 'Hind', sans-serif;
     padding: 0.5em 1em;
     font-weight: normal;
 }
+

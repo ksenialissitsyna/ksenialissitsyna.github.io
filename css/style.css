@@ -17,12 +17,12 @@ div{
 div h1 {
 	font-size: 49px;
 	color: rgba(255,255,255,0.9);
-	font-family: 'Lato', sans-serif;
+	font-family:'Raleway', sans-serif;
 	font-weight: normal;
 	line-height: 120%;
 	}   
 div p{
-	font-size: 22.8px;
+	font-size: 24px;
 	margin: none;
 	color: rgba(255,255,255,0.9);
 	font-family:'Fanwood Text', sans-serif;
@@ -172,11 +172,11 @@ a:hover {
 	border-top: 2px solid rgba(242,134,0,0.8);
 	border-bottom: 2px solid rgba(242,134,0,0.8) ;
 	margin:1.5em 11em;
-	font-family:'Lato', sans-serif;
+	font-family:'Raleway', sans-serif;
 }
 .wholeness{
 	color: #f28600;
 	font-size: 49px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 }

@@ -16,7 +16,7 @@ div{
 }
 div h1 {
 	font-size: 46.5px;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.9);
 	font-family:'Raleway', sans-serif;
 	font-weight: normal;
 	line-height: 120%;
@@ -24,7 +24,7 @@ div h1 {
 div p{
 	font-size: 23px;
 	margin: none;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.9);
 	font-family:'Fanwood Text', sans-serif;
 	font-weight: normal;
 	line-height: 120%;

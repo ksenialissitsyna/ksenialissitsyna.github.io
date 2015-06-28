@@ -15,16 +15,16 @@ div{
 	margin: 0.5em 2em 0 3em;
 }
 div h1 {
-	font-size: 49px;
-	color: rgba(255,255,255,0.9);
+	font-size: 44.5px;
+	color: rgba(255,255,255,0.8);
 	font-family:'Raleway', sans-serif;
 	font-weight: normal;
 	line-height: 120%;
 	}   
 div p{
-	font-size: 24px;
+	font-size: 22px;
 	margin: none;
-	color: rgba(255,255,255,0.9);
+	color: rgba(255,255,255,0.8);
 	font-family:'Fanwood Text', sans-serif;
 	font-weight: normal;
 	line-height: 120%;
@@ -37,7 +37,7 @@ nav a{
 	float: right;
 	color: rgb(255,255,255);
 	text-decoration: none;
-	padding: 0.25em 1em;
+	padding: 0.7em 1em;
 	border-radius: 25px;
 }
 
@@ -176,7 +176,7 @@ a:hover {
 }
 .wholeness{
 	color: #f28600;
-	font-size: 49px;
+	font-size: 44.5px;
 	font-family: 'Raleway', sans-serif;
-
+	font-weight: normal;
 }

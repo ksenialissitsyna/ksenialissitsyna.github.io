@@ -15,14 +15,14 @@ div{
 	margin: 0.5em 2em 0 3em;
 }
 div h1 {
-	font-size: 44px;
+	font-size: 48px;
 	color: rgba(255,255,255,0.9);
 	font-family: 'Quattrocento', sans-serif;
 	font-weight: normal;
 	line-height: 120%;
 	}   
 div p{
-	font-size: 23px;
+	font-size: 22.8px;
 	margin: none;
 	color: rgba(255,255,255,0.9);
 	font-family:'Fanwood Text', sans-serif;
@@ -176,7 +176,6 @@ a:hover {
 }
 .wholeness{
 	color: #f28600;
-	font-size: 44px;
+	font-size: 48px;
 	font-family: 'Quattrocento', sans-serif;
-	text-transform: uppercase;
 }

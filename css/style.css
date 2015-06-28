@@ -16,7 +16,7 @@ div{
 }
 div h1 {
 	font-size: 45px;
-	color: rgba(242,134,0,0.6) ;
+	color: rgba(242,134,0,1) ;
 	font-family:'Raleway', sans-serif;
 	font-weight: normal;
 	line-height: 130%;
@@ -110,7 +110,7 @@ h3{
 	width:55%;
 	line-height: 150%;
 	padding: 1em 1em 1.5em 2em;
-	max-width:80em; 
+	max-width:30em; 
 }
 #myapproachcolumn1 { 
 	float:left;
@@ -123,7 +123,7 @@ h3{
 	width:60%;
 	line-height: 150%;
 	padding: 1em 1em 1.5em 2em;
-	max-width:80em; 
+	max-width:30em; 
 }
 #contact{
 	float:left; 

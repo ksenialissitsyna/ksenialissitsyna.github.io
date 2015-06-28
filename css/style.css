@@ -58,7 +58,7 @@ section#services {
 section#services div { 
 	margin:2 auto; 
 	font: 15px;
-	max-width:75em; 
+	max-width:80em; 
 } 
 #slogan{
 	font-size: 26px;
@@ -102,26 +102,28 @@ h3{
 	float:left;
 	width:22%; 
 	font-size: 17px;
-	padding: 1.5em;
+	padding: 1em;
 
 }
 #aboutirynacolumn2 { 
 	float:left; 
 	width:55%;
 	line-height: 150%;
-	padding: 1.5em 1em 1.5em 2em;
+	padding: 1em 1em 1.5em 2em;
+	max-width:80em; 
 }
 #myapproachcolumn1 { 
 	float:left;
 	width:20%; 
 	font-size: 17px;
-	padding: 1.5em;
+	padding: 1em;
 }
 #myapproachcolumn2 { 
 	float:left; 
 	width:60%;
 	line-height: 150%;
-	padding: 1.5em 1em 1.5em 2em;
+	padding: 1em 1em 1.5em 2em;
+	max-width:80em; 
 }
 #contact{
 	float:left; 

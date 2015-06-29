@@ -58,7 +58,7 @@ section#services {
 section#services div { 
 	margin:2 auto; 
 	font: 15px;
-	max-width:80em; 
+	max-width:75em; 
 } 
 #slogan{
 	font-size: 26px;
@@ -94,43 +94,49 @@ h3{
 	background-color: rgba(255, 255, 255, 0.8)
 }
 #aboutiryna{
-	margin: 5em 7em;
-	font-size: 17px;
-	font-family:'Fanwood Text', sans-serif;
+	margin: 5em 6em;
+	background-color: orange;
 }
 #aboutirynacolumn1 { 
 	float:left;
-	width:22%; 
-	font-size: 17px;
-	padding: 1em;
-
+	width:18%; 
+	margin:1em;
 }
 #aboutirynacolumn2 { 
 	float:left; 
-	width:55%;
-	line-height: 150%;
-	padding: 1em 1em 1.5em 2em;
-	max-width:30em; 
+	width:38%;
+	max-width:25em; 
+	margin:1em;
+}
+#aboutirynacolumn3{
+	float:left; 
+	width:38%;
+	max-width:25em; 
+	margin:1em;
+}
+#myapproach{
+	margin: 5em 0;
+	background-color: orange;
 }
 #myapproachcolumn1 { 
 	float:left;
 	width:20%; 
 	font-size: 17px;
-	padding: 1em;
+	padding: 1em 0;
 }
 #myapproachcolumn2 { 
 	float:left; 
-	width:60%;
-	line-height: 150%;
-	padding: 1em 1em 1.5em 2em;
-	max-width:30em; 
+	width:38%;
+	max-width:25em; 
+	margin:1em; 
 }
-#contact{
+#myapproachcolumn3 { 
 	float:left; 
-	width:23%;
-	line-height: 150%;
-	padding: 1.5em;
+	width:38%;
+	max-width:25em; 
+	margin:1em;
 }
+
 #contact a:hover {
     color: #333;
     transition: transform 0.2s, color 0.2s;
@@ -146,11 +152,6 @@ img#iryna {
 img#drop {
 	height: 14.3em; 
 	width: auto;
-	vertical-align: left;
-}
-img#line {
-	padding:0;
-	background-color: red;
 }
 img#psychotherapy{
 	width: 20.5em; 

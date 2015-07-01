@@ -22,10 +22,10 @@ div h1 {
 	line-height: 100%;
 	}   
 div p{
-	font-size: 22px;
+	font-size: 19.5px;
 	margin: none;
 	color: rgba(242,134,0,0.9) ;
-	font-family:'Fanwood Text', sans-serif;
+	font-family:'Raleway', sans-serif;
 	font-weight: normal;
 	line-height: 100%;
 }
@@ -38,13 +38,16 @@ nav a{
 	color: rgba(255,255,255, 0.8);
 	text-decoration: none;
 	padding: 0.3em 1em;
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
 }
 h2{
 	text-align: center;
 	font-weight: normal;
 	padding: 0.7em 0 0 0.4em;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 18px;
+	font-family:'Raleway', sans-serif;
 }
 h3{
 	text-align: left;
@@ -64,7 +67,7 @@ p {
 	margin: 0 3em;
 }
 section#services { 
-	padding: 0 7em;
+	padding: 0 7em 1em 7em;
 } 
 section#services div { 
 	margin:2 auto; 
@@ -99,6 +102,10 @@ section#aboutirynacolumn3{
 	max-width:25em; 
 	margin:1em;
 }
+section#aboutirynacolumn3 a{
+	font-family:'Raleway', sans-serif;
+	font-size: 14px;
+}
 section#myapproach{
 	padding: 3em 6em;
 }
@@ -120,7 +127,6 @@ section#myapproachcolumn3{
 	max-width:25em; 
 	margin:1em;
 }
-
 #contact a:hover {
     color: #333;
     transition: transform 0.2s, color 0.2s;
@@ -160,20 +166,7 @@ a:hover {
     color: #f28600;
     transition: transform 0.2s, color 0.2s;
 }
-footer {
-    height: 75px;
-    background-color: #333;
-    color: rgba(215, 215, 215, 0.8);
-    font: 0.4em;
-    padding: .5em;
-    font-weight: normal;
-    text-align: center;
-}
-footer a{
-	color: rgba(215, 215, 215, 0.8);
-	text-decoration: none;
-	padding: 1em 0.8em;
-} 
+ 
 .button {
 	text-decoration: none;
 	color: #1477ab;
@@ -199,6 +192,7 @@ footer a{
 	border-bottom: 2px solid rgba(242,134,0,0.8);
 	margin:0.7em 11em;
 	font-family:'Raleway', sans-serif;
+	font-weight: normal;
 }
 #slogan{
 	font-size: 24px;
@@ -217,4 +211,22 @@ footer a{
 	height: 0; 
 	clear: both;
 
+}
+footer {
+    height: 65px;
+    background-color: #333;
+    color: rgba(215, 215, 215, 0.3);
+    font: 4px;
+    font-weight: normal;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    padding: 1em;
+}
+footer a{
+	text-decoration: none;
+	padding:1.5em;
+	color: rgba(215, 215, 215, 0.5);
+}
+footer p{
+	float:right;
 }

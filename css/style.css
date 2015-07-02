@@ -127,6 +127,14 @@ section#myapproachcolumn3{
 	max-width:25em; 
 	margin:1em;
 }
+section#contact1{
+	float:left; 
+	width:50%; 
+}
+section#contact2{
+	float:left; 
+	width:50%;
+}
 #contact a:hover {
     color: #333;
     transition: transform 0.2s, color 0.2s;
@@ -153,14 +161,6 @@ img#energywork{
 }
 img#pastlife{
 	width: 21em; 
-}
-img#scroll{
-   	width: 3.7em;
-   	height: auto;
-   	opacity: 1;
-    position: relative;
-    margin: 2.5em 40em;
-    opacity: .7;
 }
 a:hover {
     color: #f28600;
@@ -230,3 +230,143 @@ footer a{
 footer p{
 	float:right;
 }
+#contact-form {
+    background-color:#F2F7F9;
+    width:500px;
+    height: 600px;
+    padding:20px;
+    margin: 50px 9em;    
+    position:relative;
+}
+ 
+#contact-form h1 {
+    font-size:23px;
+    padding: 0.5em 0 0.7em 0;
+}
+ 
+#contact-form h2 {
+    margin-bottom:15px;
+    font-style:italic;
+    font-weight:normal;
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width:450px;
+    border: 1px solid #CEE1E8;
+    margin-bottom:20px;
+    padding:4px;
+}
+ 
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+    border: 1px solid #AFCDD8;
+    background-color: #EBF2F4;
+}
+ 
+#contact-form textarea {
+    height:150px;
+    resize: none;
+}
+ 
+#contact-form .required {
+    font-weight:bold;
+    color:#F00;    
+}
+ 
+#contact-form #submit-button {
+    width: 100px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#8FB5C1;
+    -moz-border-radius:8px;
+}
+ 
+#contact-form #submit-button:hover {
+    background-color: #A6CFDD;
+}
+ 
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
+ 
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    background-image:url(../img/loading.gif);
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+ 
+#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}
+ 
+#req-field-desc {
+    font-style:italic;
+    font-size: 12px;
+}
+ 

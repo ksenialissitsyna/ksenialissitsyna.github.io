@@ -1,0 +1,50 @@
+* {margin: 0; padding:0; box-sizing:border-box;}
+body {
+	background-image: url("images/dog.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+h1 {
+	float: left;
+	font-size: 100px;
+	color: white;
+	font-family: 'Audiowide', sans-serif;
+	background-color: darkblue;
+	padding: .25em;
+}  
+
+nav a{
+	font-size: 40px;
+	float: right;
+	color: orange;
+	text-decoration: none;
+	padding: 0 .25em 0 0.25em;
+	font-weight: bold;
+	font-family: 'Monofett', sans-serif;	
+	background-color: darkblue;
+}
+#none {
+	height: 60vh; 
+}
+#slogan {
+	font-size: 25px;
+	color: darkblue;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Audiowide', sans-serif;
+	background-color: white;
+	max-width: 700px;
+	text-align: center;
+	margin: 0 20px 40px auto;
+}
+#about
+{
+	height: 60vh; 
+	background-color: rgba(255, 255, 255,0.8);
+}
+#signup{
+	height: 60vh; 
+	background-color: rgba(255, 255, 255,0.8);
+}
+

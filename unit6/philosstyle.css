@@ -1,0 +1,121 @@
+* {margin: 0; padding:0; box-sizing:border-box;}
+body {
+	background-image: url("images/dog5.jpg");
+	background-attachment:fixed;
+	background-size:500px auto;
+	background-repeat:no-repeat;
+	background-position: right;
+}
+h1 {
+	float: left;
+	font-size: 100px;
+	color: orange;
+	font-family: 'Codystar', sans-serif;
+	padding: .25em;
+}  
+h1:hover {
+    color: red;
+    transition: transform 0.3s, color 0.3s;
+}
+nav{
+	margin: 0.5em 1.5em;
+}
+nav a{
+	font-size: 26px;
+	float: right;
+	color: orange;
+	text-decoration: none;
+	padding: 0.5em;
+	font-weight: bold;
+	font-family: 'Codystar', sans-serif;	
+}
+nav a:hover {
+    color: green;
+    transition: transform 0.2s, color 0.2s;
+}
+#none {
+	height: 38vh; 
+}
+#slogan {
+	font-size: 40px;
+	color: green;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Codystar', sans-serif;
+	max-width: 500px;
+	margin: 0 10em 8em 10em;
+	text-align: center;
+	padding: 1em;
+	border: dotted 3px;
+	border-radius: 170px;
+}
+#slogan:hover {
+    background-color: rgba(144, 238, 144, 0.2);
+    transition: transform 0.2s, color 0.2s;
+}
+#about
+{
+	font-size: 40px;
+	color: rgb(28,0,128);
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Codystar', sans-serif;
+	max-width: 500px;
+	margin: 0 10em 8em 10em;
+	text-align: center;
+	padding: 1em;
+	border: dotted 3px;
+	border-radius: 170px;
+}
+#about:hover {
+    background-color: rgba(28,0,128, 0.1);
+    transition: transform 0.2s, color 0.2s;
+}
+#signup{
+	font-size: 40px;
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Codystar', sans-serif;
+	max-width: 500px;
+	margin: 0 10em 8em 10em;
+	text-align: center;
+	padding: 1em;
+	border: dotted 3px;
+	border-radius: 170px;
+}
+#signup a{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Codystar', sans-serif;
+	border-radius: 170px;
+	font-size: 40px;
+	text-decoration: uppercase;
+}
+
+#signup:hover {
+    background-color: rgba(255,192,203,0.2);
+    transition: transform 0.2s, color 0.2s;
+}
+#aboutphilos p{
+	color: green;
+	text-decoration: none;
+	font-size: 18px;
+	max-width: 500px;
+	margin: 0 34em 0 auto;
+	line-height: 1.5em;
+	height: 23em;
+	font-family: sans-serif;
+}
+footer {
+    height: 27px;
+    color: green;
+    font: 4px;
+    font-weight: bold;
+    text-align: lwft;
+    font-family:'Codystar', sans-serif;
+    margin: 1em;
+}
+
+

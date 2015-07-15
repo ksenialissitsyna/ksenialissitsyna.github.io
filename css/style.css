@@ -196,7 +196,7 @@ a:hover {
 }
 #slogan{
 	font-size: 24px;
-	color: v;
+	color: vdwx1	waz;
 	margin:0 12em;
 	font-weight: normal;
 	line-height: 140%;
@@ -229,5 +229,8 @@ a:hover {
 }
 #footer p{
 	float:right;
+}
+section#main {
+	background-color: rgba(255, 255, 255, 0.8);
 }
  

@@ -24,9 +24,9 @@ nav a{
 	font-size: 16px;
 }
 h2{
-	text-align: center;
+	text-align: left;
 	font-weight: normal;
-	padding: 1em 1em 1em 1em;
+	padding: 1.5em 0 0.5em 0;
 	text-transform: uppercase;
 	font-size: 25px;
 	font-family:'Raleway', sans-serif;
@@ -40,7 +40,7 @@ h3{
 	font-weight: bold;
 }
 section#services { 
-	padding: 0 7em 1em 7em;
+	padding: 0 15em 3em 15em;
 } 
 section#services div{ 
 	margin:2 auto; 
@@ -50,7 +50,7 @@ section#services div{
 	padding:1em; 
 }
 .servicescolumns p{  
-	padding:1em 0; 
+	padding:1em 0;
 }
 .clearfix:after { 
 	content: "."; 
@@ -78,3 +78,7 @@ img{
 	float: left;
 	padding: 20px 20px 0 0 ;
 } 
+a:hover {
+    color: #f28600;
+    transition: transform 0.2s, color 0.2s;
+}

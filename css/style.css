@@ -16,6 +16,9 @@ div{
 	float: left;
 	margin: 2em;
 }
+p{
+	padding: 0.75em 0
+}
 div h1 {
 	font-size: 60px;
 	color: rgba(242,134,0,1);
@@ -38,7 +41,7 @@ nav a{
 	float: right;
 	color: rgba(255,255,255, 0.8);
 	text-decoration: none;
-	padding: 1em;
+	margin: 1em;
 	font-family:'Raleway', sans-serif;
 	font-size: 16px;
 }
@@ -65,7 +68,7 @@ h3{
 	margin: 0 3em;
 }
 section#slogan{
-	height: 64vh; 
+	height: 66vh; 
 	color: rgba(242,134,0,0.9);
 	font-size: 20px;
 	padding:4em auto;
@@ -87,14 +90,14 @@ section#services div{
 	padding:1em 0; 
 }
 section#aboutiryna { 
-	padding: 3em 7em;
+	padding: 3em 10em 3em 7em;
 } 
 section#aboutiryna div{ 
 	margin:2 auto; 
 } 
 section#aboutirynacolumn1{ 
 	float:left;
-	padding: 1em;
+	padding: 0.5em 1em;
 	width:22%; 
 }
 section#aboutirynacolumn2{ 
@@ -109,15 +112,15 @@ section#aboutirynacolumn3{
 }
 section#aboutirynacolumn3 a{
 	font-family:'Raleway', sans-serif;
-	font-size: 14px;
+	margin: 1em 0;
 }
 section#myapproach{
-	padding: 3em 7em;
+	padding: 3em 10em 3em 7em;
 }
 
 section#myapproachcolumn1{ 
 	float:left;
-	padding: 1em;
+	padding: 0.5em 1em;
 	width:22%;
 }
 section#myapproach div{ 
@@ -136,21 +139,21 @@ section#myapproachcolumn3{
 section#contact{
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding: 2.5em;
+	padding: 2em 0 5em 0;
 }
 #contact a:hover {
     color: #333;
     transition: transform 0.2s, color 0.2s;
 }
 img#iryna {
-	height: 11em; 
-	width: auto;
+	max-width: 100%; 
+	height: auto;
 	margin:1.3em;
 }
 img#drop {
-	height: 12em; 
-	width: auto;
-	margin:1.5em;
+	max-width: 100%; 
+	height: auto;
+	margin:1.3em;
 }
 img#psychotherapy{
 	width: 20.5em; 
@@ -161,8 +164,12 @@ img#energywork{
 img#pastlife{
 	width: 21em; 
 }
+img{
+	max-width: 100%; 
+	height: auto;
+}
 a:hover {
-    color: #f28600;
+    color: rgba(242,134,0,1);;
     transition: transform 0.2s, color 0.2s;
 }
  
@@ -214,9 +221,6 @@ footer {
     font-weight: normal;
     text-align: center;
     font-family:'Raleway', sans-serif;
-}
-#footernav{
-	color:red;
 }
 section#main {
 	background-color: rgba(255, 255, 255, 0.8);

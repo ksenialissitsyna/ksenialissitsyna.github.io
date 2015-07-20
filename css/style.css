@@ -14,7 +14,7 @@ header{
 }
 div{
 	float: left;
-	margin: 2em;
+	margin: 1.5em;
 }
 p{
 	padding: 0.75em 0
@@ -41,7 +41,7 @@ nav a{
 	float: right;
 	color: rgba(255,255,255, 0.8);
 	text-decoration: none;
-	margin: 1em;
+	padding: 1em;
 	font-family:'Raleway', sans-serif;
 	font-size: 16px;
 }
@@ -68,7 +68,7 @@ h3{
 	margin: 0 3em;
 }
 section#slogan{
-	height: 64vh; 
+	height: 65vh; 
 	color: rgba(242,134,0,0.9);
 	font-size: 20px;
 	padding:4em auto;
@@ -97,7 +97,7 @@ section#aboutiryna div{
 } 
 section#aboutirynacolumn1{ 
 	float:left;
-	padding: 0.5em 1em;
+	padding: 1em;
 	width:22%; 
 }
 section#aboutirynacolumn2{ 
@@ -120,7 +120,7 @@ section#myapproach{
 
 section#myapproachcolumn1{ 
 	float:left;
-	padding: 0.5em 1em;
+	padding: 1em;
 	width:22%;
 }
 section#myapproach div{ 
@@ -212,7 +212,6 @@ a:hover {
 	display: block; 
 	height: 0; 
 	clear: both;
-
 }
 footer {
     height: 65px;

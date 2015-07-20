@@ -5,7 +5,7 @@ body {
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	font-size: 17px;
+	font-size: 18px;
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
@@ -40,7 +40,7 @@ h3{
 	font-weight: bold;
 }
 section#services { 
-	padding: 0 15em 3em 15em;
+	padding: 0 16em 3em 16em;
 } 
 section#services div{ 
 	margin:2 auto; 
@@ -76,7 +76,7 @@ section#main {
 }
 img{
 	float: left;
-	padding: 20px 20px 0 0 ;
+	padding: 1.5em 1em 1.5em 0 ;
 } 
 a:hover {
     color: #f28600;

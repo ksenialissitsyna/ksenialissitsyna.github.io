@@ -5,7 +5,7 @@ body {
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	font-size: 18px;
+	font-size: 17.5px;
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
@@ -68,14 +68,14 @@ h3{
 	margin: 0 3em;
 }
 section#slogan{
-	height: 66vh; 
+	height: 64vh; 
 	color: rgba(242,134,0,0.9);
 	font-size: 20px;
 	padding:4em auto;
 	font-family:'Allura', sans-serif;
 }
 section#services { 
-	padding: 0 7em 1em 7em;
+	padding: 0 6em 1em 6em;
 } 
 section#services div{ 
 	margin:2 auto; 
@@ -90,7 +90,7 @@ section#services div{
 	padding:1em 0; 
 }
 section#aboutiryna { 
-	padding: 3em 10em 3em 7em;
+	padding: 3em 9em 3em 6em;
 } 
 section#aboutiryna div{ 
 	margin:2 auto; 
@@ -115,7 +115,7 @@ section#aboutirynacolumn3 a{
 	margin: 1em 0;
 }
 section#myapproach{
-	padding: 3em 10em 3em 7em;
+	padding: 3em 9em 3em 6em;
 }
 
 section#myapproachcolumn1{ 

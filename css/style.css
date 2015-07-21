@@ -5,7 +5,7 @@ body {
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	font-size: 17.5px;
+	font-size: 18px;
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
@@ -74,9 +74,10 @@ section#slogan{
 	padding:4em auto;
 	font-family:'Allura', sans-serif;
 }
-section#services { 
-	padding: 0 6em 1em 6em;
-} 
+section#services{
+	max-width: 1300px;
+	margin: 0 auto;
+}
 section#services div{ 
 	margin:2 auto; 
 	max-width:75em; 
@@ -89,15 +90,16 @@ section#services div{
 .servicescolumns p{  
 	padding:1em 0; 
 }
-section#aboutiryna { 
-	padding: 3em 9em 3em 6em;
-} 
+section#aboutiryna{
+	max-width: 1300px;
+	margin: 0 auto;
+}
 section#aboutiryna div{ 
 	margin:2 auto; 
 } 
 section#aboutirynacolumn1{ 
 	float:left;
-	padding: 1em;
+	padding: 1em 0;
 	width:22%; 
 }
 section#aboutirynacolumn2{ 
@@ -114,18 +116,15 @@ section#aboutirynacolumn3 a{
 	font-family:'Raleway', sans-serif;
 	margin: 1em 0;
 }
-section#myapproach{
-	padding: 3em 9em 3em 6em;
-}
-
 section#myapproachcolumn1{ 
 	float:left;
-	padding: 1em;
 	width:22%;
+	padding: 1em 0;
 }
-section#myapproach div{ 
-	margin:2 auto; 
-} 
+section#myapproach{
+	max-width: 1300px;
+	margin: 0 auto;
+}
 section#myapproachcolumn2{ 
 	float:left; 
 	width:39%;
@@ -146,23 +145,29 @@ section#contact{
     transition: transform 0.2s, color 0.2s;
 }
 img#iryna {
-	max-width: 100%; 
+	width: 100%; 
 	height: auto;
-	margin:1.3em;
+	padding: 2em;
 }
 img#drop {
-	max-width: 100%; 
+	width: 100%; 
 	height: auto;
-	margin:1.3em;
+	padding: 2em;
 }
 img#psychotherapy{
-	width: 20.5em; 
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 img#energywork{
-	width: 22em; 
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
 }
 img#pastlife{
-	width: 21em; 
+	width: 100%; 
+	height: auto;
+	vertical-align: bottom;
 }
 img{
 	max-width: 100%; 
@@ -221,7 +226,11 @@ footer {
     text-align: center;
     font-family:'Raleway', sans-serif;
 }
-section#main {
+main {
 	background-color: rgba(255, 255, 255, 0.8);
 }
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+background-size: cover;
  

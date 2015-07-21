@@ -5,7 +5,7 @@ body {
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	font-size: 17.5px;
+	font-size: 18px;
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
@@ -95,4 +95,18 @@ a:hover {
 	background-color: rgba(135,135,135,0.8);
 	color: white;
 	transition: transform 0.4s, color 0.4s;
+}
+img#psychotherapy{
+	width: 60%;
+	height: auto;
+}
+img#energywork{
+	width: 60%;
+	height: auto;
+	vertical-align: bottom;
+}
+img#pastlife{
+	width: 60%; 
+	height: auto;
+	vertical-align: bottom;
 }

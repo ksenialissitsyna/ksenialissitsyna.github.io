@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="mobile framework.svg">
+   sodipodi:docname="mobilewireframe.svg">
   <defs
      id="defs4">
     <filter
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70447064"
-     inkscape:cx="296.22527"
-     inkscape:cy="446.99022"
+     inkscape:zoom="0.49813597"
+     inkscape:cx="374.29808"
+     inkscape:cy="521.1649"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -245,7 +245,7 @@
          sodipodi:role="line"
          x="246.6812"
          y="418.50519"
-         id="tspan4207">(brief description)</tspan></text>
+         id="tspan4207">(brief description + contact details)</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4211"
@@ -302,5 +302,16 @@
          x="147.95056"
          y="1000.9874"
          id="tspan4227" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-330.74481"
+       y="453.33084"
+       id="text4184"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4186"
+         x="-330.74481"
+         y="453.33084"></tspan></text>
   </g>
 </svg>

@@ -20,7 +20,7 @@ p{
 	padding: 0.75em 0
 }
 div h1 {
-	font-size: 60px;
+	font-size: 3.5em;
 	color: rgba(242,134,0,1);
 	font-family:'Allura', sans-serif;
 	font-weight: normal;
@@ -43,36 +43,18 @@ nav a{
 	text-decoration: none;
 	padding: 1em;
 	font-family:'Raleway', sans-serif;
-	font-size: 16px;
+	font-size: 0.95em;
 }
 h2{
 	text-align: center;
 	font-weight: normal;
 	padding: 0.7em 0 0 0.4em;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 1em;
 	font-family:'Raleway', sans-serif;
-}
-h3{
-	text-align: left;
-	font-weight: normal;
-	font-size: 16px;
-	text-transform: uppercase;
-	padding: 0.6em 0 0 0;
-	font-weight: bold;
-}
-.generalinfo {
-	max-width:50em; 
-	height:20vh;
-	text-align: left;
-	margin: 0 3em;
 }
 section#slogan{
 	height: 65vh; 
-	color: rgba(242,134,0,0.9);
-	font-size: 20px;
-	padding:4em auto;
-	font-family:'Allura', sans-serif;
 }
 section#services{
 	max-width: 1300px;
@@ -116,24 +98,19 @@ section#aboutirynacolumn3 a{
 	font-family:'Raleway', sans-serif;
 	margin: 1em 0;
 }
-section#myapproachcolumn1{ 
+#myapproachcolumn1{ 
 	float:left;
 	width:22%;
 	padding: 1em 0;
 }
-section#myapproach{
-	max-width: 1300px;
-	margin: 0 auto;
-}
-section#myapproachcolumn2{ 
+#myapproachcolumn2{ 
 	float:left; 
 	width:39%;
 	padding: 1em; 
 }
-section#myapproachcolumn3{ 
-	float:left; 
-	width:39%;
-	padding: 1em;
+section#myapproach{
+	max-width: 1300px;
+	margin: 0 auto;
 }
 section#contact{
 	font-family:'Raleway', sans-serif;
@@ -157,14 +134,17 @@ img#drop {
 img#psychotherapy{
 	width: 100%;
 	height: auto;
+	border-radius:5%;
 }
 img#energywork{
 	width: 100%;
 	height: auto;
+	border-radius:5%;
 }
 img#pastlife{
 	width: 100%; 
 	height: auto;
+	border-radius:5%;
 }
 img{
 	max-width: 100%; 
@@ -185,7 +165,7 @@ a:hover {
 	color: white;
 	font-size: 0.9em;
 	padding: 0.4em 1em;
-	border-radius: 25px;
+	border-radius: 1em;
 	background-color: rgba(242,134,0,0.8);
 	margin: 0 7em;
 	font-family:'Raleway', sans-serif;
@@ -199,7 +179,7 @@ a:hover {
 	text-align: center;
 	padding: 1.7em 1em;
 	color: #333;
-	font-size: 20px;
+	font-size: 1.05em;
 	font-weight: bold;
 	line-height: 150%;
 	border-top: 2px solid rgba(242,134,0,0.8);
@@ -216,7 +196,7 @@ a:hover {
 	clear: both;
 }
 footer {
-    height: 65px;
+    height: 3em;
     background-color: #333;
     color: rgba(215, 215, 215, 0.3);
     font-weight: normal;

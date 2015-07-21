@@ -21,7 +21,7 @@ nav a{
 	text-decoration: none;
 	padding: 1em;
 	font-family:'Raleway', sans-serif;
-	font-size: 16px;
+	font-size: 0.95em;
 }
 h2{
 	text-align: left;
@@ -110,3 +110,8 @@ img#pastlife{
 	height: auto;
 	vertical-align: bottom;
 }
+@media only screen and (max-width: 768px){
+#servicescolumns{
+	float: none;
+	width:auto;
+}	

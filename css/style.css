@@ -157,17 +157,14 @@ img#drop {
 img#psychotherapy{
 	width: 100%;
 	height: auto;
-	position: relative;
 }
 img#energywork{
 	width: 100%;
 	height: auto;
-	vertical-align: bottom;
 }
 img#pastlife{
 	width: 100%; 
 	height: auto;
-	vertical-align: bottom;
 }
 img{
 	max-width: 100%; 

@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Path to Wholeness</title> 
     <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -12,61 +13,93 @@
     <header class="clearfix">
         <div>
             <h1>Path to Wholeness<h1>
-            <p>Iryna Aronova, MFT | Intergral Psychotherapy and Energy Work<p>
+            <h2>Iryna Aronova, MFT | Intergral Psychotherapy and Energy Work<h2>
         </div> 
+        <div class="mobile-nav">
+            <div class="menu-btn" id="menu-btn">
+            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav>
             <a href="#contact">Contact</a>
             <a href="services.html">Services</a>
             <a href="#myapproach">My Approach</a>
             <a href="#aboutiryna">About Iryna</a>
         </nav> 
+        <div class="responsive-menu">
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#myapproach">My Approach</a></li>
+                <li><a href="#aboutiryna">About Iryna</a></li>
+            </ul>
+        </div>
+        </div>
+        <script type="text/javascript">
+            jQuery(function($){
+            $( '.menu-btn' ).click(function(){
+                $('.responsive-menu').addClass('expand')
+                $('.menu-btn').addClass('btn-none')
+                })
+    
+            $( '.close-btn' ).click(function(){
+                $('.responsive-menu').removeClass('expand')
+                $('.menu-btn').removeClass('btn-none')
+            })
+            })
+        </script>
     </header>
-        <section id="slogan">
-        </section>
         <main id="about" class="clearfix">
             <section id="services" class="clearfix">
                 <section class="servicescolumns">
                     <h2>Psychotherapy</h2>
                     <p>Therapy supports us in identifying, creating, and understanding ourselves. Often, therapy will integrate group or family therapy into treatment becausgme of the level of validation, empathy, and sympathy that one experiences  <a href="services.html" class="button"> Learn More...</a></p>
-                    <img id="psychotherapy" src="images/therapy.jpeg" alt="girl reading">
+                    <img id="psychotherapy" src="images/therapy.jpg" alt="girl reading">
                 </section>
-                    <section class="servicescolumns">
-                        <h2>Energy Work</h2>
-                        <p>Each chakra represents an aspect of higher consciousness that is essential to a person’s life. As a system, the seven chakras integrate a person’s mind, body and spirit; and each has a physical, emotional, creative, and celestial component.<a href="services.html" class="button"> Learn More...</a></p>
-                        <img id="energywork" src="images/energywork.jpeg" alt="water and pebbles">
-                    </section>
-                    <section class="servicescolumns">
-                        <h2>Past Life Regression</h2>
-                        <p>Past life therapy is an opportunity for you to visit the source of the issue to release the past. Like therapy, it is remembering and re-experiencing which heals. And in accessing your Higher Self, your soul, you can connect with a peace and wisdom.<a href="services.html" class="button"> Learn More...</a></p>
-                        <img id="pastlife" src="images/pastlife.jpg" alt="spidernet">
-                    </section>
+                <section class="servicescolumns">
+                    <h2>Energy Work</h2>
+                    <p>Each chakra represents an aspect of higher consciousness that is essential to a person’s life. As a system, the seven chakras integrate a person’s mind, body and spirit; and each has a physical, emotional, creative, and celestial component.<a href="services.html" class="button"> Learn More...</a></p>
+                    <img id="energywork" src="images/energywork.jpeg" alt="water and pebbles">
                 </section>
+                <section class="servicescolumns">
+                    <h2>Past Life Regression</h2>
+                    <p>Past life therapy is an opportunity for you to visit the source of the issue to release the past. Like therapy, it is remembering and re-experiencing which heals. And in accessing your Higher Self, your soul, you can connect with a peace and wisdom.<a href="services.html" class="button"> Learn More...</a></p>
+                    <img id="pastlife" src="images/pastlife.jpg" alt="spidernet">
+                </section>
+            </section>
             <blockquote class="quote">
                 <p>"Your vision will become clear only when you look into your heart. Who looks outside, dreams. Who looks inside, awakens."<cite> - Carl Jung</cite></p>     
             </blockquote>
             <section id="aboutiryna" class="clearfix">
-                <section id="aboutirynacolumn1">
-                    <h2>About Iryna</h2><img id="iryna" src="images/iryna2.png" alt="Photo of Iryna">
-                </section>
+                <div>
+                    <section id="aboutirynacolumn1">
+                        <h2>About Iryna</h2><img id="iryna" src="images/iryna2.png" alt="Photo of Iryna">
+                    </section>
                     <section id="aboutirynacolumn2">
                         <p>I am a Marriage and Family therapist registered intern practicing under supervision of Don Hadlock, licensed MFT in Campbell, CA.</p>
                         <p>I have graduated from Institute of Transpersonal Psychology in 2014 with a Master's in Counseling Psychology and have been working with children and their families since then. I use a direct, experientialprocess-oriented approach in my work and combine it with Jungian, Humanistic, and Cognitive-Behavioral techniques.</p>
-                    </section>
-                    <section id="aboutirynacolumn3">
-                        <p>I have experience of working with depression, psychosis, anxiety, trauma, and spirituality-related issues.</p><a class="sendemail" href="mailto:irynavillegas@gmail.com">Get in touch</a>
+                        <p>I have experience of working with depression, psychosis, anxiety, trauma, and spirituality-related issues.</p>
+                        <a class="sendemail" href="mailto:irynavillegas@gmail.com">Get in touch</a>
                     </section>          
-                </section>
-            <section class="quote">
-                <p>"I can't promise to solve all your problems, but I can promise you won't have to face them alone"</p>
-            </section>
-            <section id="myapproach" class="clearfix">
-                <div id="myapproachcolumn1">
-                    <h2>My Approach</h2>
-                    <img id="drop" alt="Drop" src="images/drop.png">
                 </div>
-                <div id="myapproachcolumn2">
-                    <p>I believe that each one of us has already experienced wholeness within at some point of our lives. It could have been during our childhood days, or during moments of absorption in our favorite hobby, or while enjoying a sunset, or having a spiritual experience. Most of us experienced moments of joy, connection, and feeling “enough”, at 
-                    the way of disconnection and boredom. Since wholeness is a state of being who you really are, when you are disconnected from this place, you forget your true nature. This forgetfulness leads you to confusion about what to do with your life and your career, jobs and relationships that don’t nurture you.</p><p>My goal is to help you reconnect to the sense of wholeness within you and help you remove the obstacles to that connection. I provide a supportive empathetic environment to explore what is blocking you to become your best self and fulfill your potential. I use an experiential and direct process-oriented approach focused on the present moment.</p>
+            </section>
+                <section class="quote">
+                    <p>"I can't promise to solve all your problems, but I can promise you won't have to face them alone"</p>    
+                </section>
+            <section id="myapproach" class="clearfix">
+                <div>
+                    <section id="myapproachcolumn1">
+                        <h2>My Approach</h2>
+                        <img id="drop" alt="Drop" src="images/drop.png">
+                    </section>
+                    <secion id="myapproachcolumn2">
+                        <p>I believe that each one of us has already experienced wholeness within at some point of our lives. It could have been during our childhood days, or during moments of absorption in our favorite hobby, or while enjoying a sunset, or having a spiritual experience.</p> 
+                        <p>Most of us experienced moments of joy, connection, and feeling “enough”, at 
+                        the way of disconnection and boredom. Since wholeness is a state of being who you really are, when you are disconnected from this place, you forget your true nature. This forgetfulness leads you to confusion about what to do with your life and your career, jobs and relationships that don’t nurture you.</p>
+                        <p>My goal is to help you reconnect to the sense of wholeness within you and help you remove the obstacles to that connection. I provide a supportive empathetic environment to explore what is blocking you to become your best self and fulfill your potential. I use an experiential and direct process-oriented approach focused on the present moment.</p>
+                    </section>
                 </div>
             </section> 
             <blockquote class="quote">
@@ -89,6 +122,13 @@
             <a href="#aboutiryna">About Iryna</a>
         </nav>
     </footer>
+    <script type="text/javascript">
+    jQuery(function($){
+        $( '.menu-btn').click(function(){
+            $('.responsive-menu').toggleClass('expand')
+        })
+    })
+    </script>
 </body>
 </html>
 

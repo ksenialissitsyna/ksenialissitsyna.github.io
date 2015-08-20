@@ -110,8 +110,10 @@ img#pastlife{
 	height: auto;
 	vertical-align: bottom;
 }
-@media only screen and (max-width: 768px){
+@media (max-width: 1150px){
 #servicescolumns{
 	float: none;
 	width:auto;
-}	
+}
+
+

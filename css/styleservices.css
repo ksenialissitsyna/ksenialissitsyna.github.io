@@ -3,7 +3,7 @@
 body {
 	background-image: url('../images/ocean.jpeg');
 	background-attachment:fixed;
-	background-size:cover;
+	background-size:100%;
 	background-repeat:no-repeat;
 	font-size: 18px;
 	font-family:'Fanwood Text', sans-serif;

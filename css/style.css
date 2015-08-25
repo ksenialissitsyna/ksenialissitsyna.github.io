@@ -246,5 +246,8 @@ body {
 @media only screen and (max-width: 800px){
 
 }
-
-
+@media screen and (max-device-width : 1024px) {
+	.section-background-two {
+		background-attachment: scroll;
+	}
+}

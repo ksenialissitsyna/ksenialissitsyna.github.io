@@ -291,7 +291,7 @@ nav{
 	color: rgba(255,255,255, 0.8);
 	font-family:'Raleway', sans-serif;
 	font-size: 0.9em;
-	padding: 1em 4em;
+	padding: 1em 0;
 }
 #menu li:hover{
 	background-color: rgba(242,134,0,1);

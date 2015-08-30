@@ -256,6 +256,7 @@ img#drop {
 	padding: 0.2em;
 }
 #menu{
+	display: none;
 	padding: 10em 0 0 0;
 }
 @media only screen and (max-width: 1150px) {
@@ -294,5 +295,9 @@ nav{
 .servicescolumns { 
 	float:none;
 	width: 100%; 
+}
+header{
+	text-align: center;
+	font-size: 14px;
 }
 }

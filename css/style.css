@@ -198,11 +198,10 @@ a:hover {
 	clear: both;
 }
 footer {
-    height: 3em;
+    height: 5em;
     background-color: #333;
     color: rgba(215, 215, 215, 0.3);
     font-weight: normal;
-    text-align: center;
     font-family:'Raleway', sans-serif;
 }
 #myapproachcolumn2{ 

@@ -3,7 +3,7 @@
 body {
 	background-image: url('../images/ocean.jpeg');
 	background-attachment:fixed;
-	background-size:100%;
+	background-width:100%;
 	background-repeat:no-repeat;
 	font-size: 18px;
 	font-family:'Fanwood Text', sans-serif;
@@ -180,7 +180,7 @@ a:hover {
 	text-align: center;
 	padding: 1.7em 2em;
 	color: #333;
-	font-size: 1.05em;
+	font-size: 1em;
 	font-weight: bold;
 	line-height: 150%;
 	border-top: 2px solid rgba(242,134,0,0.8);
@@ -242,15 +242,20 @@ body {
 @media only screen and (max-width: 600px) {
 body {
 	font-size: 17px;
-	background-image: none;
-	background-color: rgb(102,127,137);
 }
 .servicescolumns { 
 	float: none;
 	width: 100%; 
 }
-header{
-	font-size: 0.8em;
-	height: 80vh; 
+body{
+	font-size: 0.9em;
 }
+section#contact{
+	font-size: 0.9em;
+}
+.quote{
+	font-size: 0.9em;
+}
+
+
 

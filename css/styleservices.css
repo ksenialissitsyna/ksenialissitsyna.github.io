@@ -2,7 +2,7 @@
 * {margin: 0; padding:0; box-sizing:border-box;}
 body {
 	background-image: url('../images/ocean.jpeg');
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:100%;
 	background-repeat:no-repeat;
 	font-size: 18px;

@@ -249,6 +249,8 @@ body {
 }
 body{
 	font-size: 0.9em;
+	background-image: none;
+	background-color: rgb(102,127,137);
 }
 section#contact{
 	font-size: 0.9em;

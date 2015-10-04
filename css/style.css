@@ -2,7 +2,7 @@
 * {margin: 0; padding:0; box-sizing:border-box;}
 body {
 	background-image: url('../images/ocean.jpeg');
-	background-attachment:scroll;
+	background-attachment:fixed;
 	background-size:100%;
 	background-repeat:no-repeat;
 	font-size: 18px;
@@ -269,26 +269,22 @@ img#drop {
 }
 @media only screen and (min-width: 1150px) {
 .dropdown{
-	padding: 10em 0 0 0;
 	display: none;
-}
 }	
 @media only screen and (max-width: 1150px) {
+body {
+	font-size: 17px;
+	background-color: rgb(102,127,137);
+}
 header{
   	height: 60vh; 
   }
-body {
-	font-size: 17px;
-}
 nav{
 	display: none;
 }
 .dropdown{
 	display: all;
 }
-.site-wapper {
-      background-image: url('../images/ocean.jpeg');
-      background-repeat: repeat repeat;
 @media only screen and (max-width: 600px) {
 .servicescolumns { 
 	float:none;

@@ -234,60 +234,19 @@ img#drop {
 	width: 100%; 
 	height: auto;
 	padding: 1em;
-}
-.dropdown li a{
-	text-decoration: none;
-	color: rgba(255,255,255, 0.8);
-	font-family:'Raleway', sans-serif;
-	font-size: 0.9em;
-	padding: 1em 4em;
-}
-.dropdown li:hover{
-	background-color: rgba(242,134,0,1);
-	transition: transform 0.4s, color 0.4s;
-}
-.dropdown li{
-	list-style-type: none;
-	width: 250px;
-	margin: 0.5em auto;
-	text-align: center;
-	padding: 0.2em;
-}
-.dropdown{
-	padding: 10em 0 0 0;
-	position: relative;
-}
-.drop-nav{
-	position: absolute;
-	display: none;
-}
-.drop-nav li{
-	border-bottom: 1px solid rgba(255, 255, 255, .2)
-}
-.dropdown:hover > .drop-nav{
-	display: block;
-}
-@media only screen and (min-width: 1150px) {
-.dropdown{
-	display: none;
 }	
 @media only screen and (max-width: 1150px) {
 body {
 	font-size: 17px;
-	background-color: rgb(102,127,137);
-}
-header{
-  	height: 60vh; 
-  }
-nav{
-	display: none;
-}
-.dropdown{
-	display: all;
 }
 @media only screen and (max-width: 600px) {
+body {
+	font-size: 17px;
+	background-image: none;
+	background-color: rgb(102,127,137);
+}
 .servicescolumns { 
-	float:none;
+	float: none;
 	width: 100%; 
 }
 header{

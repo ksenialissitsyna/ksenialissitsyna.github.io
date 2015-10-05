@@ -39,12 +39,10 @@ h3{
 	padding: 0.6em 0;
 	font-weight: bold;
 }
-section#services { 
-	padding: 1em 16em 3em 16em;
-} 
-section#services div{ 
+section#services{
+	display: block;
+	max-width:40em; 
 	margin:2 auto; 
-	max-width:75em; 
 } 
 .servicescolumns { 
 	padding:1em; 
@@ -110,8 +108,18 @@ img#pastlife{
 	vertical-align: bottom;
 }
 @media only screen and (max-width: 1150px) {
-body {
+body{
+	font-size: 0.9em;
+	background-image: none;
 	font-size: 17px;
+	background-color: rgb(24,55,76);
+}
+header{
+	background-image: url('../images/ocean2.jpg');
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	text-align: center;
 }
 @media only screen and (max-width: 600px) {
 body {
@@ -121,11 +129,7 @@ body {
 	float: none;
 	width: 100%; 
 }
-body{
-	font-size: 0.9em;
-	background-image: none;
-	background-color: rgb(102,127,137);
-}
+
 section#contact{
 	font-size: 0.9em;
 }

@@ -273,9 +273,6 @@ nav{
 div{
 	float: none;
 }
-header{
-	text-align: center;
-}
 body{
 	font-size: 0.9em;
 	background-image: none;
@@ -287,6 +284,7 @@ header{
 	background-attachment:fixed;
 	background-size:100%;
 	background-repeat:no-repeat;
+	text-align: center;
 }
 @media only screen and (max-width: 660px) {
 #navigation{
@@ -309,13 +307,19 @@ section#contact{
 	font-size: 0.8em;
 }
 header div h2{
-	font-size: 0.7em;
+	font-size: 0.6em;
 }
 header div h1{
-	font-size: 2.8em;
+	font-size: 2em;
 }
 div{
-	padding: 1em;
+	padding: 0.5em;
+}
+#navigation{
+    margin: 1em auto 3em auto;
+}
+#navigation li a{
+ 	padding: 0.5px;
 }
 }
 

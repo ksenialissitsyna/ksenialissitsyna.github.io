@@ -11,7 +11,7 @@ body {
 }
 div{
 	float: left;
-	margin: 1.5em;
+	padding: 1.5em;
 }
 p{
 	padding: 0 0 1.5em 0
@@ -267,6 +267,12 @@ header{
 nav{
 	display: none;
 }
+div{
+	float: none;
+}
+header{
+	text-align: center;
+}
 body{
 	font-size: 0.9em;
 	background-image: none;
@@ -274,7 +280,7 @@ body{
 	background-color: rgb(24,55,76);
 }
 header{
-	background-image: url('../images/ocean.jpeg');
+	background-image: url('../images/ocean2.jpg');
 	background-attachment:fixed;
 	background-size:100%;
 	background-repeat:no-repeat;

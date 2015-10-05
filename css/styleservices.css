@@ -44,9 +44,10 @@ section#services{
 	float: none;
 	max-width:40em; 
 	margin: 3em auto;
+	padding: 0 4em;
 } 
 .servicescolumns { 
-	padding:1em; 
+	padding:2em; 
 }
 .servicescolumns p{  
 	padding:1em 0;
@@ -126,7 +127,7 @@ header{
 body {
 	font-size: 17px;
 }
-.servicescolumns { 
+.aboutirynacolumn2 { 
 	float: none;
 	width: 100%; 
 }
@@ -137,7 +138,5 @@ section#contact{
 .quote{
 	font-size: 0.9em;
 }
-header{
-	height: 30vh; 
-}
+
 

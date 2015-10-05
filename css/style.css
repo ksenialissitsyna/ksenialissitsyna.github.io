@@ -9,9 +9,6 @@ body {
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
-header{
-	height: 72vh; 
-}
 div{
 	float: left;
 	margin: 1.5em;
@@ -235,16 +232,31 @@ img#drop {
 	height: auto;
 	padding: 1em;
 }	
-@media only screen and (max-width: 1140px) {
+#navigation{
+	margin: 4em;
+	text-transform: none;
+	font-family:'Raleway', sans-serif;
+}
+#navigation li{
+	list-style: none;
+}	
+#navigation li a{
+    display: block;
+    width: 300px;
+    color: #444;
+    background-color: rgba(255,255,255, 0.8);
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px #999;
+ 	padding: 1.5px;
+}
+
+@media only screen and (max-width: 660px) {
 body{
 	font-size: 0.9em;
 	background-image: none;
 	font-size: 17px;
 	background-color: rgb(102,127,137);
-}
-@media only screen and (max-width: 600px) {
-body {
-	font-size: 17px;
 }
 .servicescolumns { 
 	float: none;
@@ -256,9 +268,8 @@ section#contact{
 .quote{
 	font-size: 0.9em;
 }
-header{
-	height: 30vh; 
-}
+
+
 
 
 

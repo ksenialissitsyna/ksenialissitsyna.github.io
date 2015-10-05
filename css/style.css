@@ -308,6 +308,15 @@ section#contact{
 .sendemail{
 	font-size: 0.8em;
 }
+header div h2{
+	font-size: 0.7em;
+}
+header div h1{
+	font-size: 2.8em;
+}
+div{
+	padding: 1em;
+}
 }
 
 

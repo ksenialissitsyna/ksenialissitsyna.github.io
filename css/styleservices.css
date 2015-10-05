@@ -66,9 +66,6 @@ footer {
     font-weight: normal;
     font-family:'Raleway', sans-serif;
 }
-#footernav{
-	color:red;
-}
 section#main {
 	background-color: rgba(255, 255, 255, 0.8);
 }
@@ -109,7 +106,7 @@ img#pastlife{
 	vertical-align: bottom;
 }
 img#iryna{
-	width: 70%;
+	width: 50%;
 	float: left;
 	padding: 0.5em 1.5em 1em 0 ;
 } 
@@ -134,7 +131,11 @@ body {
 	font-size: 0.9em;
 }
 nav a{
-	padding: 1em 0.7em;
+	padding: 0.2em 0.5em;
+	font-size: 14px;
+}
+.sendemail{
+	font-size: 14px;
 }
 img{
 	float: none;

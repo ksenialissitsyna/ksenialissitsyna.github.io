@@ -274,9 +274,8 @@ div{
 	float: none;
 }
 body{
-	font-size: 0.9em;
-	background-image: none;
 	font-size: 17px;
+	background-image: none;
 	background-color: rgb(24,55,76);
 }
 header{
@@ -287,6 +286,9 @@ header{
 	text-align: center;
 }
 @media only screen and (max-width: 660px) {
+body{
+	font-size: 16px;
+}
 #navigation{
     margin: 0 auto 2em auto;
 }
@@ -297,23 +299,20 @@ header{
 	float: none;
 	width: 100%; 
 }
-.quote{
-	font-size: 0.9em;
-}
 .sendemail{
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 header div h2{
 	font-size: 0.6em;
 }
 header div h1{
-	font-size: 2em;
+	font-size: 2.3em;
 }
 div{
 	padding: 0.5em;
 }
 #navigation{
-    margin: 0 auto 1em auto;
+    margin: 0.5em auto 2em auto;
 }
 #navigation li a{
  	padding: 0;
@@ -328,9 +327,6 @@ div{
 	margin: auto;
 	padding: 0 1em;
 }
-.sendemail{
-	font-size: 0.9em;
-}  
 }
 
 

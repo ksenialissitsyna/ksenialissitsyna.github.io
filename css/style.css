@@ -321,6 +321,14 @@ div{
 #navigation li a{
  	padding: 0.5px;
 }
+#aboutirynacolumn1{ 
+	float: none;
+	width: 80%;
+}
+#aboutirynacolumn2{ 
+	float: none;
+	margin: auto;
+}  
 }
 
 

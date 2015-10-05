@@ -9,6 +9,9 @@ body {
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
+header{
+	height: 7vh; 
+}
 nav{
 	padding: 0 2em 0 0;
 }
@@ -37,9 +40,9 @@ h3{
 	font-weight: bold;
 }
 section#services{
-	display: block;
+	display: inline-block;
 	max-width:40em; 
-	margin:2 auto; 
+	margin: 3em auto;
 } 
 .servicescolumns { 
 	padding:1em; 
@@ -104,24 +107,7 @@ img#pastlife{
 	height: auto;
 	vertical-align: bottom;
 }
-@media only screen and (min-width: 1150px) {
-#navigation{
-	display: none; 
-}
-header{
-	height: 15vh; 
-}
-}
 @media only screen and (max-width: 1150px) {
-#navigation{
-    margin: 2em auto 3em auto;
-}
-nav{
-	display: none;
-}
-div{
-	float: none;
-}
 body{
 	font-size: 0.9em;
 	background-image: none;
@@ -135,63 +121,22 @@ header{
 	background-repeat:no-repeat;
 	text-align: center;
 }
-#navigation{
-	text-transform: none;
-	display: inline-block;
-	font-family:'Raleway', sans-serif;
-    margin: 2em auto 5em auto;
-    font-size: 0.9em;
-}
-#navigation li{
-	list-style: none;
-}	
-#navigation li a{
-    display: block;
-    width: 250px;
-    color: #444;
-    background-color: rgba(255,255,255, 0.8);
-    text-align: center;
-    text-decoration: none;
-    border: solid 1px #999;
- 	padding: 1.5px;
-}
-#navigation li a:hover {
-    background-color: rgba(242,134,0,0.8);
-    transition: transform 0.2s, color 0.2s;
-}
-@media only screen and (max-width: 660px) {
-#navigation{
-    margin: 0 auto 2em auto;
-}
-header{
-	text-align: center;
+@media only screen and (max-width: 600px) {
+body {
+	font-size: 17px;
 }
 .servicescolumns { 
 	float: none;
 	width: 100%; 
 }
+
 section#contact{
 	font-size: 0.9em;
 }
 .quote{
 	font-size: 0.9em;
 }
-.sendemail{
-	font-size: 0.8em;
+header{
+	height: 30vh; 
 }
-header div h2{
-	font-size: 0.6em;
-}
-header div h1{
-	font-size: 2em;
-}
-div{
-	padding: 0.5em;
-}
-#navigation{
-    margin: 1em auto 3em auto;
-}
-#navigation li a{
- 	padding: 0.5px;
-}
-}
+

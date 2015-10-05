@@ -236,6 +236,7 @@ img#drop {
 	font-family:'Raleway', sans-serif;
 	display: inline-block;
     margin: 4em auto;
+    font-size: 0.9em;
 }
 #navigation li{
 	list-style: none;
@@ -255,12 +256,24 @@ img#drop {
     background-color: rgba(242,134,0,0.8);
     transition: transform 0.2s, color 0.2s;
 }
+@media only screen and (min-width: 1150px) {
+#navigation{
+	display: none; 
+}
+header{
+	height: 72vh; 
+}
+}
+@media only screen and (max-width: 1150px) {
+nav{
+	display: none;
+}
 @media only screen and (max-width: 660px) {
 body{
 	font-size: 0.9em;
 	background-image: none;
 	font-size: 17px;
-	background-color: rgb(102,127,137);
+	background-color: rgb(24,55,76);
 }
 .servicescolumns { 
 	float: none;
@@ -274,8 +287,8 @@ section#contact{
 }
 .sendemail{
 	font-size: 0.9em;
-
-
+}
+}
 
 
 

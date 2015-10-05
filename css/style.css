@@ -274,6 +274,9 @@ body{
 	font-size: 17px;
 	background-color: rgb(24,55,76);
 }
+header{
+	text-align: center;
+}
 .servicescolumns { 
 	float: none;
 	width: 100%; 

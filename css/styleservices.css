@@ -43,7 +43,7 @@ section#services{
 	display: inline-block;
 	float: none;
 	max-width:40em; 
-	margin: 3em auto;
+	margin: 0 auto;
 	padding: 0 4em;
 } 
 .servicescolumns { 
@@ -127,16 +127,16 @@ header{
 body {
 	font-size: 17px;
 }
-.aboutirynacolumn2 { 
+img#psychotherapy{
+	width: 100%;
 	float: none;
-	width: 100%; 
-}
-
-section#contact{
-	font-size: 0.9em;
+	padding: 1em 0 2em 0;
 }
 .quote{
 	font-size: 0.9em;
+}
+nav a{
+	padding: 1em 0.7em;
 }
 
 

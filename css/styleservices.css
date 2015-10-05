@@ -41,7 +41,7 @@ h3{
 }
 section#services{
 	display: block;
-	max-width:40em; 
+	max-width:45em; 
 	margin: 0 auto 2em auto;
 	padding: 0 4em;
 } 
@@ -95,16 +95,16 @@ a:hover {
 	transition: transform 0.4s, color 0.4s;
 }
 img#psychotherapy{
-	width: 50%;
+	width: 70%;
 	height: auto;
 }
 img#energywork{
-	width: 60%;
+	width: 70%;
 	height: auto;
 	vertical-align: bottom;
 }
 img#pastlife{
-	width: 60%; 
+	width: 70%; 
 	height: auto;
 	vertical-align: bottom;
 }
@@ -125,11 +125,6 @@ header{
 @media only screen and (max-width: 600px) {
 body {
 	font-size: 17px;
-}
-img#psychotherapy{
-	width: 100%;
-	float: none;
-	padding: 1em 0 2em 0;
 }
 .quote{
 	font-size: 0.9em;

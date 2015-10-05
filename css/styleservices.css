@@ -43,7 +43,7 @@ section#services{
 	display: block;
 	max-width:45em; 
 	margin: 0 auto 2em auto;
-	padding: 0 4em;
+	padding: 0 2em;
 } 
 .servicescolumns { 
 	padding:2em; 
@@ -132,5 +132,4 @@ body {
 nav a{
 	padding: 1em 0.7em;
 }
-
-
+}

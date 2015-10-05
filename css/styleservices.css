@@ -41,6 +41,7 @@ h3{
 }
 section#services{
 	display: inline-block;
+	float: none;
 	max-width:40em; 
 	margin: 3em auto;
 } 

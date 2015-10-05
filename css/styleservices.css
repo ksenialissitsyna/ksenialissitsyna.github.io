@@ -9,9 +9,6 @@ body {
 	font-family:'Fanwood Text', sans-serif;
 	line-height: 150%;
 }
-header{
-	height: 7vh; 
-}
 nav{
 	padding: 0 2em 0 0;
 }
@@ -42,12 +39,9 @@ h3{
 section#services{
 	display: block;
 	max-width:45em; 
-	margin: 0 auto 2em auto;
-	padding: 0 2em;
+	margin: 0 auto;
+	padding: 1em 4em 4em 4em;
 } 
-.servicescolumns { 
-	padding:2em; 
-}
 .servicescolumns p{  
 	padding:1em 0;
 }
@@ -131,8 +125,8 @@ body {
 	font-size: 0.9em;
 }
 nav a{
-	padding: 0.2em 0.5em;
-	font-size: 14px;
+	padding: 0.5em 0.5em;
+	font-size: 11px;
 }
 .sendemail{
 	font-size: 14px;

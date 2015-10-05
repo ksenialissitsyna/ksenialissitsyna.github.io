@@ -109,10 +109,30 @@ img#pastlife{
 	height: auto;
 	vertical-align: bottom;
 }
-@media (max-width: 1150px){
-#servicescolumns{
-	float: none;
-	width:auto;
+@media only screen and (max-width: 1150px) {
+body {
+	font-size: 17px;
 }
-
+@media only screen and (max-width: 600px) {
+body {
+	font-size: 17px;
+}
+.servicescolumns { 
+	float: none;
+	width: 100%; 
+}
+body{
+	font-size: 0.9em;
+	background-image: none;
+	background-color: rgb(102,127,137);
+}
+section#contact{
+	font-size: 0.9em;
+}
+.quote{
+	font-size: 0.9em;
+}
+header{
+	height: 30vh; 
+}
 

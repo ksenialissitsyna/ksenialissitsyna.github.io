@@ -327,6 +327,9 @@ div{
 	float: none;
 	margin: auto;
 	padding: 0 1em;
+}
+.sendemail{
+	font-size: 0.9em;
 }  
 }
 
